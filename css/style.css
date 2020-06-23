@@ -1,0 +1,83 @@
+body{
+  background-image: url(img/sfondo-legno.jpg);
+}
+
+
+.container{
+width: 1000px;
+margin: auto;
+
+}
+form{
+  margin-top: 10px;
+  border-top: 2px solid white;
+  padding-top: 10px;
+}
+main{
+  margin-top: 10px;
+  border-top: 2px solid white;
+  padding-top: 10px;
+}
+.logo{
+  width:100px;
+  vertical-align: middle;
+}
+
+.logo-text{
+  font-size: 30px;
+  color: white;
+
+}
+
+.titolo{
+  color: white;
+}
+
+#unread-number{
+font-size: 30px;
+background-color: orange;
+border-radius: 100%;
+
+}
+
+
+.row-read{
+  background-color: lightgrey;
+  border-style: solid;
+}
+
+.row-unread{
+  background-color: white;
+  border-style: solid;
+}
+.row-right , .row-left{
+  display: inline-block;
+
+  }
+
+  .row-left{
+
+  width: 30%;
+  }
+
+  .row-right{
+
+    width: 60%;
+  }
+
+  footer{
+    text-align: center;
+    margin-top: 10px;
+    border-top: 2px solid white;
+    padding-top: 10px;
+
+  }
+
+  footer > span{
+    font-size: 40px;
+    color: white;
+  }
+
+  em{
+    color: white;
+  }
